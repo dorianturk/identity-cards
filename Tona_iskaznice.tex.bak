@@ -1,0 +1,49 @@
+\documentclass[croatian]{article}
+\usepackage[autostyle]{csquotes}
+\DeclareQuoteAlias{dutch}{croatian}
+\usepackage[T1]{fontenc}
+\usepackage{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[pdftex]{graphicx}   
+\usepackage[absolute]{textpos}
+\setlength{\TPHorizModule}{1mm}
+\setlength{\TPVertModule}{1mm}
+
+\usepackage[papersize={8.5cm,5.5cm},
+   margins=0mm,headheight=0mm,headsep=0mm,
+   croplength=5mm,cropgap=0mm,
+   cropmarks,
+   cropframe]{zwpagelayout}
+
+\pagestyle{empty}
+
+\begin{document}
+%-7.3 mm je tocno do ruba, postavljeno je na 5.3 zbog rupa
+\noindent \vspace{-5.3 mm}
+
+\begin{center}
+\includegraphics[height=1.7cm]{logo_mobi.png} \hfill \includegraphics[height=1.7cm]{logoodabir}
+\end{center}
+
+%logo_mobi3 -0.35
+%logo_mobi4 0.3
+%logo_mobi5 -0.7cm
+
+
+\begin{center} 
+\vspace{-1.95 cm}
+\hspace{korekcija_naslova} \makebox{IX. KONGRES STUDENATA}\\
+\hspace{korekcija_naslova} \makebox{DOKTORSKOG STUDIJA}\\
+\hspace{korekcija_naslova} \makebox{\enquote{Molekularne bioznanosti}}\\
+\vfill
+\huge \textbf{IMEiPREZIME}
+\vfill
+\large SUDIONIK
+\vfill
+\end{center}
+
+\begin{textblock}{85}[0, 0.5](0,51.15)
+	\center \noindent \normalsize 16. srpnja 2022.
+\end{textblock}
+
+\end{document}
